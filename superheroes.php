@@ -63,7 +63,7 @@ $superheroes = [
   ], 
 ];
 
-$query = isset($_GET['query']) ? $_GET['query'] : '';
+$query = $_GET['query'] ?? '';
 
 $query = trim($query);
 
